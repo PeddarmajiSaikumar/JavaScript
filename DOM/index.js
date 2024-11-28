@@ -46,3 +46,13 @@ function fn4(){
         heading[i].style.fontFamily="Verdana, sans-serif";
     }
 }
+
+// Events
+function setnewImage(){
+    document.getElementById("img1").src="/DOM/img-2.jpg";
+}
+
+function setoldImage(){
+    document.getElementById("img1").src="/DOM/img-1.jpg";
+
+}
